@@ -1,0 +1,39 @@
+name: ci
+
+on:
+  push:
+    branches: [ "main", "develop" ]
+  pull_request:
+    branches: [ "main", "develop" ]
+
+jobs:
+  ci:
+    name: ci
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        php-version: [ 8.4 ]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Config PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: intl
+          coverage: xdebug
+
+      - name: Install composer packages
+        run: composer install -n --prefer-dist
+
+      - name: Config Laravel
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+          touch database/database.sqlite
+          php artisan migrate --force
+
+      - name: Run CI Checks
+        run: composer ci

@@ -1,0 +1,15 @@
+*
+!/app
+!/artisan
+!/bootstrap
+!/config
+!/database
+!/public
+!/resources
+!/routes
+!/storage
+!composer.*
+!/vendor
+!/.env
+!/*.js
+!/.docker
