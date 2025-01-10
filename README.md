@@ -47,8 +47,8 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
 - ✔️ [**Larastan**](https://github.com/larastan/larastan) for static analysis, configured to `max` level
 
 ### ✨ Packed with Best Practices
-- ✔️ **Strict models**
-- ✔️ **Strict types**
+- ✔️ Strict models
+- ✔️ Strict types
 - 🟡 _A few more that we can't mention here, with many more on the roadmap_
 
 ### ✨ Customizable
