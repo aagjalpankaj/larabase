@@ -27,7 +27,7 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
 - ✔️ Useful & handy composer commands for streamlined development
 
 ### ✨ Built-in CI/CD
-- ✔️ GitHub CI workflow with necessary automated checks included
+- ✔️ GitHub CI workflow with necessary automated checks:
     - `composer lint` — ensures consistent code styling
     - `composer rector` — keeps your code up to date
     - `composer test.arch` — architecture testing
@@ -37,7 +37,7 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
     - Containerized — `Dockerfile` to build `ci`, `dev` & `deploy` images using [serversideup/docker-php](https://github.com/serversideup/docker-php)
     - Deploy job — complete the `.github/workflows/200-cd.yml` and your application is ready to deploy
 
-### ✨ Elegant testing framework
+### ✨ Elegant testing
 - ✔️ [PestPHP](https://pestphp.com) configured with `Architecture`, `Unit` & `Feature` test-suites
 
 ### ✨ Essential Packages out of the box
@@ -47,8 +47,8 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
 - ✔️ [**Larastan**](https://github.com/larastan/larastan) for static analysis, configured to `max` level
 
 ### ✨ Packed with Best Practices
-- ✔️ Strict models
-- ✔️ Strict types
+- ✔️ [Strict models](https://laravel-news.com/shouldbestrict)
+- ✔️ [Declare strict types](https://stackoverflow.com/questions/48723637/what-do-strict-types-do-in-php)
 - 🟡 _A few more that we can't mention here, with many more on the roadmap_
 
 ### ✨ Customizable
