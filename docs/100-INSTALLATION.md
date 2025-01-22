@@ -14,13 +14,13 @@
 Click on the "use this template" button. Clone the created repository on your local.
 
 ### GitLab or other
-Clone this repository on your local, delete `.git` directory and initialize git with your own remote repository.
+Download source code from the [release](https://github.com/laralaunch/the-boilerplate/releases/).
 
 ## Spin-up
 
 ### Docker
 
-Run (First time, it will take couple of minutes as it will build `dev` image from `Dockerfile`)
+Run (First time, it will take a couple of minutes as it will build `dev` image from `Dockerfile`)
 ```
 docker compose up -d
 ```

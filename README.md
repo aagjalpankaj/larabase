@@ -64,5 +64,5 @@ You can easily modify this boilerplate to fit your specific requirements.
 
 ## Contributing
 - [Issues](https://github.com/laralaunch/the-boilerplate/issues) 👉 for bugs
-- [PRs](https://github.com/laralaunch/the-boilerplate/pulls) 👉 for contributions
+- [PRs](https://github.com/laralaunch/the-boilerplate/pulls) 👉 for contributions (Fork the project and create MR targeting the main branch)
 - [Discussions](https://github.com/laralaunch/the-boilerplate/discussions) 👉 for help, thoughts and suggestions
