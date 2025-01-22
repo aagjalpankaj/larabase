@@ -24,7 +24,8 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
 ### ✨ Optimized for Local Development
 - ✔️ Essential packages configured for a seamless local development experience
 - ✔️ `docker-compose.yml` using [serversideup/docker-php](https://github.com/serversideup/docker-php)
-- ✔️ Useful & handy composer commands for streamlined development
+- ✔️ Xdebug configured in `dev` and `ci` image
+- ✔️ Useful and handy composer commands for streamlined development
 
 ### ✨ Built-in CI/CD
 - ✔️ GitHub CI workflow with necessary automated checks:
@@ -47,12 +48,16 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
 - ✔️ [**Larastan**](https://github.com/larastan/larastan) for static analysis, configured to `max` level
 
 ### ✨ Packed with Best Practices
+- ✔️ Check for consistent code-styling
+- ✔️ Static analysis with `max` level
+- ✔️ Code-quality checks using rector
 - ✔️ [Strict models](https://laravel-news.com/shouldbestrict)
-- ✔️ [Declare strict types](https://stackoverflow.com/questions/48723637/what-do-strict-types-do-in-php)
+- ✔️ Mandatory [declaring strict types](https://stackoverflow.com/questions/48723637/what-do-strict-types-do-in-php)
+- ✔️ [Architecture tests — Laravel presets](https://pestphp.com/docs/arch-testing)
 - 🟡 _A few more that we can't mention here, with many more on the roadmap_
 
 ### ✨ Customizable
-You can easily modify this boilerplate to fit your specific requirements.  
+You can easily modify this boilerplate to fit your specific requirements.
 
 
 ## Quick-start
