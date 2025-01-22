@@ -13,11 +13,9 @@ declare(strict_types=1);
 |
 */
 
-pest()->extend(Tests\TestCase::class)->in('Architecture');
+pest()->extend(Tests\FeatureTestCase::class)->in('Architecture', 'Feature');
 
 pest()->extend(Tests\UnitTestCase::class)->in('Unit');
-
-pest()->extend(Tests\FeatureTestCase::class)->in('Feature');
 
 /*
 |--------------------------------------------------------------------------

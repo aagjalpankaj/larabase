@@ -63,7 +63,7 @@
         "lint": "XDEBUG_MODE=off pint --test",
         "lint.fix": "XDEBUG_MODE=off pint",
         "stan": "XDEBUG_MODE=off phpstan analyse --ansi --memory-limit=-1",
-        "test.arch": "XDEBUG_MODE=off pest --testsuite=Arch",
+        "test.arch": "XDEBUG_MODE=off pest --testsuite=Architecture",
         "test.unit": "XDEBUG_MODE=off pest --testsuite=Unit",
         "test.feature": "XDEBUG_MODE=coverage pest --testsuite=Feature --coverage --min=90",
         "rector": "XDEBUG_MODE=off rector process --dry-run",
