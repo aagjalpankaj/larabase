@@ -18,20 +18,34 @@ Download source code from the [release](https://github.com/laralaunch/the-boiler
 
 ## Spin-up
 
-### Docker
+### Docker (Recommended)
 
-Run (First time, it will take a couple of minutes as it will build `dev` image from `Dockerfile`)
+Run (First time, it will take a couple of minutes as it will build `dev` image from `Dockerfile`):
 ```
 docker compose up -d
 ```
 
-Inside the application container run:
+Inside the application container, run below commands one by one:
 ```
 composer install
 cp .env.example .env
 php artisan key:generate
 touch database/database.sqlite
-php artisan migrate --force
+php artisan migrate
 ```
 
-Visit http://localhost:8765
+Done! Visit http://localhost:8765
+
+### Locally
+
+> Make sure php 8.4 is installed and Xdebug is configured
+
+Run below commands one by one:
+```
+composer install
+cp .env.example .env
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate
+php artisan serve
+```

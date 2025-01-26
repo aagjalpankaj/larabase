@@ -1,4 +1,4 @@
-FROM serversideup/php:8.4-fpm-nginx-alpine-v3.5.1 AS base
+FROM serversideup/php:8.4-fpm-nginx-alpine-v3.5.2 AS base
 
 USER root
 

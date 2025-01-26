@@ -1,4 +1,7 @@
-# LaraLaunch — The Boilerplate: Start fast, build right. 🚀
+<p align="center">
+<img src="./docs/assets/banner.png">
+</p>
+
 <p align="center">
 <a href="https://github.com/laralaunch/the-boilerplate/actions/workflows/100-ci.yml">
   <img src="https://github.com/laralaunch/the-boilerplate/actions/workflows/100-ci.yml/badge.svg" alt="ci">
@@ -9,6 +12,8 @@
   <img src="https://img.shields.io/badge/PHP-8.4-blue?logo=php&logoColor=white" alt="PHP 8.4" />
   <img src="https://img.shields.io/badge/Laravel-11-orange?logo=laravel&logoColor=white" alt="Laravel 11" />
 </p>
+
+## About
 <a href="https://github.com/laravel/laravel" target="_blank">Official Laravel boilerplate</a> is minimalistic by design, empowering developers with flexibility while leaving many foundational decisions up to them.
 
 This boilerplate fills that gap, providing pre-configured, best-practice-driven strong foundation. That means you _**start fast**_ and _**build right**_ from day one.
@@ -23,7 +28,7 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
 
 ### ✨ Optimized for Local Development
 - ✔️ Essential packages configured for a seamless local development experience
-- ✔️ `docker-compose.yml` using [serversideup/docker-php](https://github.com/serversideup/docker-php)
+- ✔️ Configured `docker-compose.yml`
 - ✔️ Xdebug configured in `dev` and `ci` image
 - ✔️ Useful and handy composer commands for streamlined development
 
@@ -35,7 +40,7 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
     - `composer test.unit` — unit tests
     - `composer test.feature` — feature tests with a minimum coverage check
 - ✔️ Deploy wherever you want
-    - Containerized — `Dockerfile` to build `ci`, `dev` & `deploy` images using [serversideup/docker-php](https://github.com/serversideup/docker-php)
+    - Production-ready `Dockerfile` (using [serversideup/docker-php](https://serversideup.net/open-source/docker-php)) for containerized deployment
     - Deploy job — complete the `.github/workflows/200-cd.yml` and your application is ready to deploy
 
 ### ✨ Elegant testing
@@ -69,5 +74,5 @@ You can easily modify this boilerplate to fit your specific requirements.
 
 ## Contributing
 - [Issues](https://github.com/laralaunch/the-boilerplate/issues) 👉 for bugs
-- [PRs](https://github.com/laralaunch/the-boilerplate/pulls) 👉 for contributions (Fork the project and create MR targeting the main branch)
+- [PRs](https://github.com/laralaunch/the-boilerplate/pulls) 👉 for contributions (Fork the project and create MR targeting `main` branch)
 - [Discussions](https://github.com/laralaunch/the-boilerplate/discussions) 👉 for help, thoughts and suggestions

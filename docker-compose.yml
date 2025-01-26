@@ -1,25 +1,25 @@
 name: "laralaunch-the-boilerplate"
 
-# By default, `laralaunch-application` server uses sqlite.
-# If you want different db driver, feel free to configure `laralaunch-database` accordingly.
+# By default, `laralaunch-application-server` server uses sqlite.
+# If you want different db driver, feel free to configure `laralaunch-database-server` accordingly.
 
 services:
-#    laralaunch-database:
+#    laralaunch-database-server:
 #        image: mysql:8
-#        container_name: laralaunch-database
+#        container_name: laralaunch-database-server
 #        restart: unless-stopped
 
-    laralaunch-application:
+    laralaunch-application-server:
         build:
             context: .
             dockerfile: Dockerfile
             target: dev
         platform: linux/amd64
-        container_name: laralaunch-application
+        container_name: laralaunch-application-server
         ports:
             - ${LARALAUNCH_APPLICATION_PORT:-8765}:8080
         volumes:
             - .:/var/www/html
         restart: unless-stopped
 #        depends_on:
-#            - laralaunch-database
+#            - laralaunch-database-server
