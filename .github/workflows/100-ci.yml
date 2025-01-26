@@ -30,7 +30,7 @@ jobs:
 
       - name: Config Laravel
         run: |
-          cp .env.example .env
+          cp .env.testing .env
           php artisan key:generate
           touch database/database.sqlite
           php artisan migrate --force
