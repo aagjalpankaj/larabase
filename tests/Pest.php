@@ -28,7 +28,7 @@ pest()->extend(Tests\UnitTestCase::class)->in('Unit');
 |
 */
 
-expect()->extend('toBeOne', fn () => $this->toBe(1));
+// expect()->extend('toBeOne', fn () => $this->toBe(1));
 
 /*
 |--------------------------------------------------------------------------
@@ -41,7 +41,6 @@ expect()->extend('toBeOne', fn () => $this->toBe(1));
 |
 */
 
-function something(): void
-{
-    // ..
-}
+// function something(): void
+// {
+// }

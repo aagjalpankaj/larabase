@@ -15,5 +15,6 @@ abstract class UnitTestCase extends TestCase
         parent::setUp();
 
         Http::preventStrayRequests();
+        $this->freezeTime();
     }
 }

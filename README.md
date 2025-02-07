@@ -18,7 +18,6 @@
 
 This boilerplate fills that gap, providing pre-configured, best-practice-driven strong foundation. That means you _**start fast**_ and _**build right**_ from day one.
 
-
 ## Features
 
 ### ✨ Up-to-Date with the Latest Versions
@@ -41,7 +40,13 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
     - `composer test.feature` — feature tests with a minimum coverage check
 - ✔️ Deploy wherever you want
     - Production-ready `Dockerfile` (using [serversideup/docker-php](https://serversideup.net/open-source/docker-php)) for containerized deployment
-    - Deploy job — complete the `.github/workflows/200-cd.yml` and your application is ready to deploy
+    - By default, the deploy job pushes image to AWS ECR repository. If you initiate an AWS compute service that supports container image (e.g. AppRunner, Lambda or EKS), deployment should work out-of-the-box just by configuring below variables in GitHub.
+        - `AWS_ACCESS_KEY_ID` _(secret)_
+        - `AWS_ECR_REGISTRY` _(secret)_
+        - `AWS_SECRET_ACCESS_KEY` _(secret)_
+        - `AWS_ECR_REPOSITORY`  _(variable)_
+        - `AWS_REGION` _(variable)_
+    - Modify `.github/workflows/200-cd.yml` if you don't want AWS containerized deployment.
 
 ### ✨ Elegant testing
 - ✔️ [PestPHP](https://pestphp.com) configured with `Architecture`, `Unit` & `Feature` test-suites
@@ -70,6 +75,12 @@ You can easily modify this boilerplate to fit your specific requirements.
 - [Development](./docs/200-DEVELOPMENT.md)
 - [Testing](./docs/300-TESTING.md)
 - [Deployment](./docs/400-DEPLOYMENT.md)
+
+
+## Inspiration
+[![laravel](https://avatars.githubusercontent.com/u/958072?s=48&v=4)](https://laravel.com) &nbsp;&nbsp;
+[![aws](https://avatars.githubusercontent.com/u/2232217?s=48&v=4)](https://aws.amazon.com) &nbsp;&nbsp;
+[![serversideup/docker-php](https://avatars.githubusercontent.com/u/4761291?s=48&v=4)](https://serversideup.net/open-source/docker-php) &nbsp;&nbsp;
 
 
 ## Contributing

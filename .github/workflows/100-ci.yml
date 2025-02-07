@@ -8,7 +8,6 @@ on:
 
 jobs:
   ci:
-    name: ci
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true

@@ -18,5 +18,6 @@ abstract class FeatureTestCase extends TestCase
         parent::setUp();
 
         Http::preventStrayRequests();
+        $this->freezeTime();
     }
 }
