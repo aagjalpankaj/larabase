@@ -1,16 +1,16 @@
 <p align="center">
-<img src="./docs/assets/banner.png">
+<img src="./.docs/assets/banner.png">
 </p>
 
 <p align="center">
-<a href="https://github.com/laralaunch/the-boilerplate/actions/workflows/100-ci.yml">
-  <img src="https://github.com/laralaunch/the-boilerplate/actions/workflows/100-ci.yml/badge.svg" alt="ci">
+<a href="https://github.com/aagjalpankaj/larabase/actions/workflows/100-ci.yml">
+  <img src="https://github.com/aagjalpankaj/larabase/actions/workflows/100-ci.yml/badge.svg" alt="ci">
 </a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-8.4-blue?logo=php&logoColor=white" alt="PHP 8.4" />
-  <img src="https://img.shields.io/badge/Laravel-11-orange?logo=laravel&logoColor=white" alt="Laravel 11" />
+  <img src="https://img.shields.io/badge/Laravel-12-orange?logo=laravel&logoColor=white" alt="Laravel 12" />
 </p>
 
 ## About
@@ -22,7 +22,7 @@ This boilerplate fills that gap, providing pre-configured, best-practice-driven 
 
 ### ✨ Up-to-Date with the Latest Versions
 - ✔️ php 8.4
-- ✔️ Laravel 11
+- ✔️ Laravel 12
 - ✔️ Official Laravel boilerplate
 
 ### ✨ Optimized for Local Development
@@ -71,10 +71,10 @@ You can easily modify this boilerplate to fit your specific requirements.
 
 
 ## Quick-start
-- [Installation](./docs/100-INSTALLATION.md)
-- [Development](./docs/200-DEVELOPMENT.md)
-- [Testing](./docs/300-TESTING.md)
-- [Deployment](./docs/400-DEPLOYMENT.md)
+- [Installation](./.docs/100-INSTALLATION.md)
+- [Development](./.docs/200-DEVELOPMENT.md)
+- [Testing](./.docs/300-TESTING.md)
+- [Deployment](./.docs/400-DEPLOYMENT.md)
 
 
 ## Inspiration
@@ -84,6 +84,6 @@ You can easily modify this boilerplate to fit your specific requirements.
 
 
 ## Contributing
-- [Issues](https://github.com/laralaunch/the-boilerplate/issues) 👉 for bugs
-- [PRs](https://github.com/laralaunch/the-boilerplate/pulls) 👉 for contributions (Fork the project and create MR targeting `main` branch)
-- [Discussions](https://github.com/laralaunch/the-boilerplate/discussions) 👉 for help, thoughts and suggestions
+- [Issues](https://github.com/aagjalpankaj/larabase/issues) 👉 for bugs
+- [PRs](https://github.com/aagjalpankaj/larabase/pulls) 👉 for contributions (Fork the project and create MR targeting `main` branch)
+- [Discussions](https://github.com/aagjalpankaj/larabase/discussions) 👉 for help, thoughts and suggestions

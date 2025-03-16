@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LaraLaunch — The Boilerplate</title>
+    <title>LaraBase — Laravel Boilerplate</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" type="text/css"></script> <!-- For icons -->
     <style>
@@ -58,11 +58,11 @@
 </head>
 <body>
 <div class="container">
-    <h1>LaraLaunch — The Boilerplate</h1>
+    <h1>LaraBase - Laravel Boilerplate</h1>
     <p>Start fast, build right. 🚀</p>
 </div>
 <div class="footer">
-    <a href="https://github.com/laralaunch/the-boilerplate" target="_blank">
+    <a href="https://github.com/aagjalpankaj/larabase" target="_blank">
         <i class="fab fa-github"></i>Give a ⭐
     </a>
 </div>
