@@ -1,0 +1,25 @@
+name: "larabase"
+
+# By default, `larabase-application-server` server uses sqlite.
+# If you want different db driver, feel free to configure `larabase-database-server` accordingly.
+
+services:
+#    larabase-database-server:
+#        image: mysql:8
+#        container_name: larabase-database-server
+#        restart: unless-stopped
+
+    larabase-application-server:
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: dev
+        platform: linux/amd64
+        container_name: larabase-application-server
+        ports:
+            - ${LARABASE_APPLICATION_PORT:-8765}:8080
+        volumes:
+            - .:/var/www/html
+        restart: unless-stopped
+#        depends_on:
+#            - larabase-database-server
